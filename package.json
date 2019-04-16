@@ -1,0 +1,36 @@
+{
+    "name": "node-red-contrib-ssh",
+    "version": "0.0.1",
+    "description": "A Node-RED node for runing remote ssh command.",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:yroffin/node-red-contrib-ssh.git"
+    },
+    "keywords": [
+        "node-red",
+        "ssh",
+        "ssl",
+        "client"
+    ],
+    "author": {
+        "name": "Yannick Roffin",
+        "email": "yroffin@gmail.com",
+        "url": "https://github.com/yroffin"
+    },
+    "contributors": [
+        {}
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yroffin/node-red-contrib-ssh/issues"
+    },
+    "node-red": {
+        "nodes": {
+            "ssh-client": "src/ssh-client.js"
+        }
+    },
+    "dependencies": {
+        "ssh2": "0.8.2"
+    },
+    "homepage": "https://github.com/yroffin/node-red-contrib-ssh"
+}
