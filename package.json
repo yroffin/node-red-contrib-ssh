@@ -1,5 +1,5 @@
 {
-    "name": "node-red-contrib-ssh",
+    "name": "node-red-contrib-ssh-client",
     "version": "0.0.1",
     "description": "A Node-RED node for runing remote ssh command.",
     "repository": {
