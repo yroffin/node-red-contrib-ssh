@@ -70,7 +70,7 @@ module.exports = function (RED) {
             port: 22,
             username: node.credentials.username ? node.credentials.username : undefined,
             password: node.credentials.password ? node.credentials.password : undefined,
-            privateKey: config.key ? require('fs').readFileSync(config.key) : undefined
+            privateKey: config.ssh ? require('fs').readFileSync(config.ssh) : undefined
         });
 
         // Handle node close
